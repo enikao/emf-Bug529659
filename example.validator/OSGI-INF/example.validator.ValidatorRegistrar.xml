@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.3.0" activate="activate" name="example.validator.ValidatorRegistrar">
+   <reference cardinality="1..1" field="extensionRegistry" interface="org.eclipse.core.runtime.IExtensionRegistry" name="extensionRegistry"/>
+   <implementation class="example.validator.ValidatorRegistrar"/>
+</scr:component>

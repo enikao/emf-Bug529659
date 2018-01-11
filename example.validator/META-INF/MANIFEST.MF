@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Validator
+Bundle-SymbolicName: example.validator
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Require-Bundle: org.eclipse.equinox.registry,
+ org.eclipse.emf.ecore,
+ org.eclipse.emf.examples.library
+Service-Component: OSGI-INF/example.validator.ValidatorRegistrar.xml
+Bundle-ActivationPolicy: lazy
